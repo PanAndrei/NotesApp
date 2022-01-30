@@ -15,6 +15,7 @@
 		B6C11DCF27A708CD004BA8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DCE27A708CD004BA8CF /* Assets.xcassets */; };
 		B6C11DD227A708CD004BA8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */; };
 		B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDA27A70A04004BA8CF /* Note.swift */; };
+		B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDD27A70B92004BA8CF /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B6C11DD127A708CD004BA8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C11DD327A708CD004BA8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C11DDA27A70A04004BA8CF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		B6C11DDD27A70B92004BA8CF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		B6C11DC127A708CB004BA8CF /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				B6C11DDC27A70B77004BA8CF /* Data Extension */,
 				B6C11DD927A709F1004BA8CF /* Models */,
 				B6C11DC227A708CB004BA8CF /* AppDelegate.swift */,
 				B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */,
@@ -79,6 +82,14 @@
 				B6C11DDA27A70A04004BA8CF /* Note.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B6C11DDC27A70B77004BA8CF /* Data Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6C11DDD27A70B92004BA8CF /* DateExtension.swift */,
+			);
+			path = "Data Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */,
+				B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */,
 				B6C11DC727A708CB004BA8CF /* ViewController.swift in Sources */,
 				B6C11DC327A708CB004BA8CF /* AppDelegate.swift in Sources */,
 				B6C11DC527A708CB004BA8CF /* SceneDelegate.swift in Sources */,
