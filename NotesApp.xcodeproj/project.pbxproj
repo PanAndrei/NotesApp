@@ -16,6 +16,9 @@
 		B6C11DD227A708CD004BA8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */; };
 		B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDA27A70A04004BA8CF /* Note.swift */; };
 		B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDD27A70B92004BA8CF /* DateExtension.swift */; };
+		B6C11DE227A70CDC004BA8CF /* ListNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */; };
+		B6C11DE427A70D26004BA8CF /* ListNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */; };
+		B6C11DE727A70D60004BA8CF /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE627A70D60004BA8CF /* EditNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		B6C11DD327A708CD004BA8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C11DDA27A70A04004BA8CF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		B6C11DDD27A70B92004BA8CF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesViewController.swift; sourceTree = "<group>"; };
+		B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNoteTableViewCell.swift; sourceTree = "<group>"; };
+		B6C11DE627A70D60004BA8CF /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		B6C11DC127A708CB004BA8CF /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				B6C11DDF27A70C79004BA8CF /* Views */,
 				B6C11DDC27A70B77004BA8CF /* Data Extension */,
 				B6C11DD927A709F1004BA8CF /* Models */,
 				B6C11DC227A708CB004BA8CF /* AppDelegate.swift */,
@@ -90,6 +97,32 @@
 				B6C11DDD27A70B92004BA8CF /* DateExtension.swift */,
 			);
 			path = "Data Extension";
+			sourceTree = "<group>";
+		};
+		B6C11DDF27A70C79004BA8CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6C11DE527A70D3C004BA8CF /* EditNote */,
+				B6C11DE027A70C84004BA8CF /* ListNotesViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6C11DE027A70C84004BA8CF /* ListNotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */,
+				B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */,
+			);
+			path = ListNotesViewController;
+			sourceTree = "<group>";
+		};
+		B6C11DE527A70D3C004BA8CF /* EditNote */ = {
+			isa = PBXGroup;
+			children = (
+				B6C11DE627A70D60004BA8CF /* EditNoteViewController.swift */,
+			);
+			path = EditNote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +199,11 @@
 				B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */,
 				B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */,
 				B6C11DC727A708CB004BA8CF /* ViewController.swift in Sources */,
+				B6C11DE427A70D26004BA8CF /* ListNoteTableViewCell.swift in Sources */,
+				B6C11DE727A70D60004BA8CF /* EditNoteViewController.swift in Sources */,
 				B6C11DC327A708CB004BA8CF /* AppDelegate.swift in Sources */,
 				B6C11DC527A708CB004BA8CF /* SceneDelegate.swift in Sources */,
+				B6C11DE227A70CDC004BA8CF /* ListNotesViewController.swift in Sources */,
 				B6C11DCD27A708CB004BA8CF /* NotesApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
