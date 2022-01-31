@@ -68,6 +68,10 @@
                                                 <constraint firstItem="fJb-aq-doZ" firstAttribute="leading" secondItem="2aq-au-nmR" secondAttribute="leading" constant="15" id="br5-2X-mSZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="Fsl-U8-urw" id="NjC-L5-vA1"/>
+                                            <outlet property="titleLabel" destination="8HE-gI-6Qe" id="XIB-IX-GF4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -96,6 +100,9 @@
                                         <color key="tintColor" systemColor="systemOrangeColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="square.and.pencil" catalog="system"/>
+                                        <connections>
+                                            <action selector="createNewNotePressed:" destination="jbx-tt-NpH" eventType="touchUpInside" id="8f5-qz-kf5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -126,6 +133,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Notes" id="rD8-Kh-6b5"/>
+                    <connections>
+                        <outlet property="notesCountLabel" destination="PYE-vB-NHO" id="KOA-SM-QGS"/>
+                        <outlet property="tableView" destination="Ez9-2G-vS9" id="ILl-dm-8px"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qu3-MK-4wL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
