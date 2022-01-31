@@ -25,9 +25,19 @@ class ListNotesViewController: UIViewController {
         }
     }
     private var filteredNotes: [Note] = []
+    
+    var firstNote = Note()
+                 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        firstNote.text = """
+                             Привет!
+                             Это первая заметка.
+                             Дальше будет текст.
+                         """
+        allNotes.append(firstNote)
         
         self.navigationController?.navigationBar.shadowImage = UIImage()
         tableView.contentInset = .init(top: 0, left: 0, bottom: 30, right: 0)
