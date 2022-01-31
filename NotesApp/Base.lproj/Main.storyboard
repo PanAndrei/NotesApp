@@ -69,8 +69,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="descriptionLbl" destination="8HE-gI-6Qe" id="8g2-AU-der"/>
-                                            <outlet property="titleLbl" destination="Fsl-U8-urw" id="jpl-nP-GQj"/>
+                                            <outlet property="descriptionLbl" destination="Fsl-U8-urw" id="vBP-wI-er6"/>
+                                            <outlet property="titleLbl" destination="8HE-gI-6Qe" id="EAT-cH-dqV"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

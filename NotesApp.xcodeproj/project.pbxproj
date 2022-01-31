@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6A52C6227A8090F004CF715 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A52C6027A8090F004CF715 /* Note+CoreDataClass.swift */; };
+		B6A52C6327A8090F004CF715 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A52C6127A8090F004CF715 /* Note+CoreDataProperties.swift */; };
+		B6A52C6527A80B29004CF715 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A52C6427A80B29004CF715 /* CoreDataManager.swift */; };
 		B6C11DC327A708CB004BA8CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DC227A708CB004BA8CF /* AppDelegate.swift */; };
 		B6C11DC527A708CB004BA8CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */; };
 		B6C11DCA27A708CB004BA8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DC827A708CB004BA8CF /* Main.storyboard */; };
 		B6C11DCD27A708CB004BA8CF /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DCB27A708CB004BA8CF /* NotesApp.xcdatamodeld */; };
 		B6C11DCF27A708CD004BA8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DCE27A708CD004BA8CF /* Assets.xcassets */; };
 		B6C11DD227A708CD004BA8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */; };
-		B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDA27A70A04004BA8CF /* Note.swift */; };
 		B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDD27A70B92004BA8CF /* DateExtension.swift */; };
 		B6C11DE227A70CDC004BA8CF /* ListNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */; };
 		B6C11DE427A70D26004BA8CF /* ListNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6A52C6027A8090F004CF715 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B6A52C6127A8090F004CF715 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B6A52C6427A80B29004CF715 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		B6C11DBF27A708CB004BA8CF /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C11DC227A708CB004BA8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +34,6 @@
 		B6C11DCE27A708CD004BA8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C11DD127A708CD004BA8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C11DD327A708CD004BA8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6C11DDA27A70A04004BA8CF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		B6C11DDD27A70B92004BA8CF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesViewController.swift; sourceTree = "<group>"; };
 		B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNoteTableViewCell.swift; sourceTree = "<group>"; };
@@ -75,7 +79,6 @@
 				B6C11DCE27A708CD004BA8CF /* Assets.xcassets */,
 				B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */,
 				B6C11DD327A708CD004BA8CF /* Info.plist */,
-				B6C11DCB27A708CB004BA8CF /* NotesApp.xcdatamodeld */,
 			);
 			path = NotesApp;
 			sourceTree = "<group>";
@@ -83,7 +86,10 @@
 		B6C11DD927A709F1004BA8CF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B6C11DDA27A70A04004BA8CF /* Note.swift */,
+				B6A52C6027A8090F004CF715 /* Note+CoreDataClass.swift */,
+				B6A52C6127A8090F004CF715 /* Note+CoreDataProperties.swift */,
+				B6C11DCB27A708CB004BA8CF /* NotesApp.xcdatamodeld */,
+				B6A52C6427A80B29004CF715 /* CoreDataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,14 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */,
 				B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */,
 				B6C11DE427A70D26004BA8CF /* ListNoteTableViewCell.swift in Sources */,
 				B6C11DE727A70D60004BA8CF /* EditNoteViewController.swift in Sources */,
 				B6C11DC327A708CB004BA8CF /* AppDelegate.swift in Sources */,
 				B6C11DC527A708CB004BA8CF /* SceneDelegate.swift in Sources */,
+				B6A52C6227A8090F004CF715 /* Note+CoreDataClass.swift in Sources */,
 				B6C11DE227A70CDC004BA8CF /* ListNotesViewController.swift in Sources */,
 				B6C11DCD27A708CB004BA8CF /* NotesApp.xcdatamodeld in Sources */,
+				B6A52C6527A80B29004CF715 /* CoreDataManager.swift in Sources */,
+				B6A52C6327A8090F004CF715 /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
