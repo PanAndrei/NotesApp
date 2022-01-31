@@ -9,15 +9,13 @@ import UIKit
 
 class ListNoteTableViewCell: UITableViewCell {
 
- static let indentifier = "ListNoteTableViewCell"
+    static let identifier = "ListNoteTableViewCell"
     
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    
+    @IBOutlet weak private var titleLbl: UILabel!
+    @IBOutlet weak private var descriptionLbl: UILabel!
     
     func setup(note: Note) {
-        titleLabel.text = note.title
-        descriptionLabel.text = note.description
+        titleLbl.text = note.title
+        descriptionLbl.text = note.desc
     }
-
 }

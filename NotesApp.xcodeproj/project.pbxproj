@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B6C11DC327A708CB004BA8CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DC227A708CB004BA8CF /* AppDelegate.swift */; };
 		B6C11DC527A708CB004BA8CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */; };
-		B6C11DC727A708CB004BA8CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DC627A708CB004BA8CF /* ViewController.swift */; };
 		B6C11DCA27A708CB004BA8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DC827A708CB004BA8CF /* Main.storyboard */; };
 		B6C11DCD27A708CB004BA8CF /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DCB27A708CB004BA8CF /* NotesApp.xcdatamodeld */; };
 		B6C11DCF27A708CD004BA8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DCE27A708CD004BA8CF /* Assets.xcassets */; };
@@ -25,7 +24,6 @@
 		B6C11DBF27A708CB004BA8CF /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C11DC227A708CB004BA8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B6C11DC627A708CB004BA8CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6C11DC927A708CB004BA8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C11DCC27A708CB004BA8CF /* NotesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesApp.xcdatamodel; sourceTree = "<group>"; };
 		B6C11DCE27A708CD004BA8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				B6C11DD927A709F1004BA8CF /* Models */,
 				B6C11DC227A708CB004BA8CF /* AppDelegate.swift */,
 				B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */,
-				B6C11DC627A708CB004BA8CF /* ViewController.swift */,
 				B6C11DC827A708CB004BA8CF /* Main.storyboard */,
 				B6C11DCE27A708CD004BA8CF /* Assets.xcassets */,
 				B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */,
@@ -198,7 +195,6 @@
 			files = (
 				B6C11DDB27A70A04004BA8CF /* Note.swift in Sources */,
 				B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */,
-				B6C11DC727A708CB004BA8CF /* ViewController.swift in Sources */,
 				B6C11DE427A70D26004BA8CF /* ListNoteTableViewCell.swift in Sources */,
 				B6C11DE727A70D60004BA8CF /* EditNoteViewController.swift in Sources */,
 				B6C11DC327A708CB004BA8CF /* AppDelegate.swift in Sources */,
