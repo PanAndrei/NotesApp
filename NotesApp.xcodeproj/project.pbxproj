@@ -14,12 +14,12 @@
 		B6C11DC527A708CB004BA8CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */; };
 		B6C11DCA27A708CB004BA8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DC827A708CB004BA8CF /* Main.storyboard */; };
 		B6C11DCD27A708CB004BA8CF /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DCB27A708CB004BA8CF /* NotesApp.xcdatamodeld */; };
-		B6C11DCF27A708CD004BA8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DCE27A708CD004BA8CF /* Assets.xcassets */; };
 		B6C11DD227A708CD004BA8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */; };
 		B6C11DDE27A70B92004BA8CF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DDD27A70B92004BA8CF /* DateExtension.swift */; };
 		B6C11DE227A70CDC004BA8CF /* ListNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */; };
 		B6C11DE427A70D26004BA8CF /* ListNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */; };
 		B6C11DE727A70D60004BA8CF /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C11DE627A70D60004BA8CF /* EditNoteViewController.swift */; };
+		B6FFBA2927A9435E002FBA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FFBA2827A9435E002FBA41 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +31,13 @@
 		B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6C11DC927A708CB004BA8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C11DCC27A708CB004BA8CF /* NotesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesApp.xcdatamodel; sourceTree = "<group>"; };
-		B6C11DCE27A708CD004BA8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C11DD127A708CD004BA8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C11DD327A708CD004BA8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C11DDD27A70B92004BA8CF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		B6C11DE127A70CDC004BA8CF /* ListNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesViewController.swift; sourceTree = "<group>"; };
 		B6C11DE327A70D26004BA8CF /* ListNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNoteTableViewCell.swift; sourceTree = "<group>"; };
 		B6C11DE627A70D60004BA8CF /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		B6FFBA2827A9435E002FBA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Unknown/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				B6C11DC227A708CB004BA8CF /* AppDelegate.swift */,
 				B6C11DC427A708CB004BA8CF /* SceneDelegate.swift */,
 				B6C11DC827A708CB004BA8CF /* Main.storyboard */,
-				B6C11DCE27A708CD004BA8CF /* Assets.xcassets */,
+				B6FFBA2827A9435E002FBA41 /* Assets.xcassets */,
 				B6C11DD027A708CD004BA8CF /* LaunchScreen.storyboard */,
 				B6C11DD327A708CD004BA8CF /* Info.plist */,
 			);
@@ -187,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C11DD227A708CD004BA8CF /* LaunchScreen.storyboard in Resources */,
-				B6C11DCF27A708CD004BA8CF /* Assets.xcassets in Resources */,
+				B6FFBA2927A9435E002FBA41 /* Assets.xcassets in Resources */,
 				B6C11DCA27A708CB004BA8CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
