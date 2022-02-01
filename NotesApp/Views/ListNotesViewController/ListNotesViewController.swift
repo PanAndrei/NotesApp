@@ -165,4 +165,5 @@ extension ListNotesViewController: ListNotesDelegate {
         
         allNotes.remove(at: indexForNote(id: id, in: allNotes).row)
     }
+    
 }
