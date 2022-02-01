@@ -25,7 +25,18 @@ class ListNotesViewController: UIViewController {
         }
     }
     private var filteredNotes: [Note] = []
-                 
+    
+    override func loadView() {
+        super.loadView()
+        fetchNotesFromStorage()
+        print(allNotes.count)
+        
+        if allNotes.count == 0 {
+            CoreDataManager.shared.createFirstNote()
+            print("first note was created")
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,6 +44,7 @@ class ListNotesViewController: UIViewController {
         tableView.contentInset = .init(top: 0, left: 0, bottom: 30, right: 0)
         configureSearchBar()
         fetchNotesFromStorage()
+
     }
     
     private func indexForNote(id: UUID, in list: [Note]) -> IndexPath {

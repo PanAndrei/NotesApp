@@ -54,6 +54,19 @@ extension CoreDataManager {
         save()
         return note
     }
+    
+    func createFirstNote() -> Note {
+        let note = Note(context: viewContext)
+        note.id = UUID()
+        note.text = """
+                    Привет!
+                    Это первая заметка.
+                    Тут будет текст.
+                    """
+        note.lastUpdated = Date()
+        save()
+        return note
+    }
 
     func fetchNotes(filter: String? = nil) -> [Note] {
         let request: NSFetchRequest<Note> = Note.fetchRequest()
