@@ -8,6 +8,10 @@ project for test
 Приветственная первая запись. 
 Поиск по заметкам в памяти. 
 
+CoreData, MVC, AutoLayout
+
+![NotesApp](https://user-images.githubusercontent.com/92307816/159500649-12f76117-d1c0-4cff-a934-dc400e76f04f.png)
+
 Идеи для дальнейшего развития: 
 - синхронизация между устройствами
 - группировка по темам
